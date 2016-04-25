@@ -1,5 +1,7 @@
 module PMTK4Stats
 
-# package code goes here
+    export hdiFromIcdf
+    include("hdiFromIcdf.jl")
 
-end # module
+end
+
